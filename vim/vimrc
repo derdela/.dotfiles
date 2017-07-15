@@ -52,8 +52,10 @@ Plug 'tomasr/molokai'
 call plug#end()
 
 " color scheme
-set background=dark
 colorscheme molokai
+
+hi Normal guibg=NONE ctermbg=NONE
+
 
 " ctrlp
 let g:ctrlp_map = '<c-p>'

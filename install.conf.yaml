@@ -11,6 +11,7 @@
     ~/.npmrc: npm/npmrc
     ~/.gitconfig: git/gitconfig
     ~/.config/nvim/init.vim: vim/vimrc
+    ~/.config/termite/config: termit/config
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
