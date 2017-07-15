@@ -1,2 +1,2 @@
-export PATH=~/.npm-global/bin:$PATH
-source ~/.dotfiles/git/prompt
+source ~/.dotfiles/git/sources
+source ~/.dotfiles/npm/sources
