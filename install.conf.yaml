@@ -5,8 +5,11 @@
 - clean: ['~']
 
 - link:
-    ~/.dotfiles: ''
     ~/.i3: i3
+    ~/.profile: profile
+    ~/.npmrc: npm/npmrc
+    ~/.gitconfig: git/gitconfig
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
+  - [mkdir -p ~/.npm-global, Create global npm_modules dir]
