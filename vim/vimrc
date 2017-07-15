@@ -1,9 +1,59 @@
+" Automatic reloading of .vimrc
+autocmd! bufwritepost .vimrc source %
+set shell=bash
+
+" set <Leader> key
+let mapleader = ","
+
+" Navigate between windows
+map <c-j> <c-w>j
+map <c-k> <c-w>k
+map <c-l> <c-w>l
+map <c-h> <c-w>h
+
+" move code blocks
+noremap < <gv
+noremap > >gv
+
+syntax enable
+set relativenumber
+set number
+set autoindent
+set showmatch
+
+" whitespace 
+set tabstop=2
+set softtabstop=2
+set shiftwidth=2
+set shiftround
+set expandtab
+set columns=120
+
+" search
+set hlsearch
+set incsearch
+set ignorecase
+set smartcase
+
+" disable swap files
+set nobackup
+set nowritebackup
+set noswapfile
+
+" === Plugins === "
+
 call plug#begin('~/.locale/share/nvim/plugged')
 
 Plug 'kien/ctrlp.vim'
 
+" color schemes
+Plug 'tomasr/molokai'
+
 call plug#end()
 
+" color scheme
+set background=dark
+colorscheme molokai
 
 " ctrlp
 let g:ctrlp_map = '<c-p>'
