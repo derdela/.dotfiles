@@ -1,0 +1,9 @@
+call plug#begin('~/.locale/share/nvim/plugged')
+
+Plug 'kien/ctrlp.vim'
+
+call plug#end()
+
+
+" ctrlp
+let g:ctrlp_map = '<c-p>'
