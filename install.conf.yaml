@@ -7,7 +7,7 @@
 
 - link:
     ~/.i3: i3
-    ~/.profile: profile
+    ~/.bashrc: profile
     ~/.npmrc: npm/npmrc
     ~/.gitconfig: git/gitconfig
     ~/.config/nvim/init.vim: vim/vimrc
