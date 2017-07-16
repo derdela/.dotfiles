@@ -184,5 +184,6 @@ bindsym XF86AudioNext exec playerctl next
 bindsym XF86AudioPrev exec playerctl previous
 
 # Background
-exec_always feh --bg-fill ~/Pictures/Wallpapers/juergen-teller-21.jpg
+# exec_always feh --bg-fill ~/Pictures/Wallpapers/yves-saint-laurent-french-vogue-rue-aubriot-paris-1975-c-helmut-newton-estate2.jpg
+exec_always feh --bg-fill ~/Pictures/Wallpapers/stephen-shore-08.jpg
 exec xcompmgr -c -f -n
